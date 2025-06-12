@@ -1,0 +1,698 @@
+/* -------- Paramètres généraux -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* -------- Fonds des pages -------- */
+body.accueil {
+  background-image:url(ph8.jpg) ;
+  background-size: cover;
+}
+
+body.decouverte {
+background-image:url(ph1.jpg) ;
+  background-size: cover;
+}
+
+/* -------- Header -------- */
+header {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* -------- Section principale -------- */
+main {
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 60vh;
+}
+
+/* -------- Accueil : section intro -------- */
+.intro {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #1e90ff;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0b65c2;
+}
+
+/* -------- Découverte : liens -------- */
+.exploration {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.exploration h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.exploration ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.exploration li a {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: block;
+  font-size: 1.1em;
+  transition: background 0.3s ease;
+}
+
+.exploration li a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* -------- Image visible -------- */
+.illustration {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+/* -------- Footer -------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 40px;
+}
+body.definition {
+  background: url('ph4.jpg');
+  background-size: cover;
+}
+
+body.definition main {
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  border-radius: 12px;
+  color: #f0f0f0;
+  font-size: 1.1em;
+  line-height: 1.7;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+body.definition header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 20px 25px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 0 15px 15px;
+}
+body.histoire header{
+  background: url('ph5.jpg');
+  background-size: cover;
+}
+<iframe width="560" height="315" src="https://youtu.be/bKrwmtMSlyU?si=poaS1JtYRO4FuXbX" 
+  title="Histoire de l'Islam - Vidéo 1" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen></iframe>
+  body.piliers-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image : url('ph15.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.fiches-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.carte {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  text-decoration: none;
+  width: 250px;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.carte:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.carte h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  margin-top: 2rem;
+}
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chahada - La profession de foi</title>
+  <link rel="stylesheet" href="Islam.css">
+</head>
+<body class="chahada-page">
+  <header>
+    <h1>Chahada</h1>
+    <p>Premier pilier de l'Islam : la profession de foi</p>
+  </header>  <main>
+    <section class="contenu">
+      <h2>Qu'est-ce que la Chahada ?</h2>
+      <p>La <strong>Chahada</strong> est le témoignage de foi. Elle signifie : <em>"Il n'y a de dieu qu'Allah et Muhammad est le Messager d'Allah"</em>. Elle est la déclaration fondamentale de la foi islamique.</p><p>La Chahada marque l'entrée dans l'Islam. C'est une parole dite avec sincérité, qui résume l'essence du monothéisme musulman.</p>
+
+  <h3>Vidéo explicative</h3>
+  <div class="video">
+    <iframe width="560" height="315" src="https://youtu.be/RcMz768ftgE?si=v9OcxMwraDNIm04B" title="Vidéo sur la Chahada" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+  </main>  <footer>
+    <p>Quiconque prononce la Chahada avec sincérité entre dans la lumière de l'Islam.</p>
+  </footer>
+</body>
+</html>
+body.sawm-page { margin: 0; font-family: Arial, sans-serif; background-image: url("images/fond-sawm.jpg"); background-size: cover; background-position: center; color: #fff; }
+
+header { text-align: center; padding: 2rem; background-color: rgba(0, 0, 0, 0.6); }
+
+header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
+header p { font-size: 1.2rem; }
+
+main.contenu { padding: 2rem; background-color: rgba(0, 0, 0, 0.5); border-radius: 15px; margin: 2rem; }
+
+section { margin-bottom: 2rem; }
+
+h2 { color: #ffd700; }
+
+ul { list-style-type: disc; padding-left: 1.5rem; }
+
+ul li { margin-bottom: 0.5rem; }
+
+a { color: #add8e6; text-decoration: underline; }
+
+a:hover { color: #ffffff; }
+
+footer { text-align: center; padding: 1rem; background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top: 2rem; }
+body.foi-page { margin: 0; font-family: Arial, sans-serif; background-image: url("images/fond-foi.jpg"); background-size: cover; background-position: center; color: #fff; }
+
+header { text-align: center; padding: 2rem; background-color: rgba(0, 0, 0, 0.6); }
+
+header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
+header p { font-size: 1.2rem; }
+
+.fiches-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; padding: 2rem; }
+
+.carte { background-color: rgba(255, 255, 255, 0.9); color: #000; text-decoration: none; width: 250px; padding: 1.5rem; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
+
+.carte:hover { transform: scale(1.05); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); }
+
+.carte h2 { margin-top: 0; font-size: 1.4rem; }
+
+footer { text-align: center; padding: 1rem; background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top: 2rem; }
+body.allah-page { margin: 0; font-family: Arial, sans-serif; background-image: url("ph16.jpg"); background-size: cover; background-position: center; color: #fff; }
+
+header { text-align: center; padding: 2rem; background-color: rgba(0, 0, 0, 0.7); }
+
+header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
+header p { font-size: 1.2rem; margin: 0; }
+
+.contenu { padding: 2rem; background-color: rgba(0, 0, 0, 0.5); max-width: 900px; margin: 2rem auto; border-radius: 15px; }
+
+section { margin-bottom: 2rem; }
+
+section h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+
+section ul { list-style: disc; padding-left: 2rem; }
+
+section li { margin-bottom: 0.5rem; }
+
+iframe { max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.6); }
+
+footer { text-align: center; padding: 1rem; background-color: rgba(0, 0, 0, 0.7); color: #fff; margin-top: 2rem; border-top: 1px solid #ccc; }
+body.anges-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("ph17.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contenu {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 15px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+body.livres-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("ph18.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contenu {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 15px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+body.messagers-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("ph19.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contenu {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 15px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+body.jugement-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("ph20.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contenu {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 15px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+body.destin-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("ph21.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contenu {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 15px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+body.hajj-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("ph12.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.contenu {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  padding-left: 2rem;
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
