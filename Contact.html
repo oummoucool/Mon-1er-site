@@ -3,44 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact - Ma foi, mon chemin</title>
+  <title>Contact - Lumière de l'Islam</title>
   <link rel="stylesheet" href="ISLAM.css" />
 </head>
 <body class="contact-page">
 
   <header>
-   <nav>
-      <table>
-        <tr>
-        <a href="index.html" style="text-decoration: none;">Accueil  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</a>
-        </tr>
-        <tr><a href="Decouverte.html"style="text-decoration: none;">Découverte &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</a></tr>
-        <tr><a href="Contact.html" style="text-decoration: none;"class="active">Contact</a></tr>
-      </table>
+    <h1>Contactez-moi</h1>
+    <nav>
+      <a href="index.html">Accueil</a> |
+      <a href="decouverte.html">Découverte</a> |
+      <a href="contact.html">Contact</a>
     </nav>
-    <h1>Entrons en contact</h1>
-    <p>Tu as une question sur l'Islam, un avis sur mon projet ou simplement envie de discuter ? Écris-moi ici 🙏</p>
   </header>
 
   <main>
-    <section class="form-section">
-      <form action="#" method="post">
-        <label for="name">Ton nom :</label>
-        <input type="text" id="name" name="name" required />
+    <h2>Votre message est important</h2>
+    <p>N'hésitez pas à me laisser un message ou une question via ce formulaire. Je vous répondrai dès que possible.</p>
 
-        <label for="email">Ton email :</label>
-        <input type="email" id="email" name="email" required />
+    <form action="https://formspree.io/f/ton_code_formulaire" method="POST">
+      <label for="name">Nom :</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
 
-        <label for="message">Ton message :</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
+      <label for="email">Email :</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
 
-        <button type="submit">Envoyer avec bienveillance</button>
-      </form>
-    </section>
+      <label for="message">Message :</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Envoyer</button>
+    </form>
   </main>
 
   <footer>
-    <p>© 2025 - Un projet de cœur pour partager la beauté de l'Islam</p>
+    <p>Contact : <a href="Oummoukachalla@gmail.com">Oummoukachalla@gmail.com</a></p>
+    <p>&copy; 2025 Lumière de l'Islam</p>
   </footer>
 
 </body>
